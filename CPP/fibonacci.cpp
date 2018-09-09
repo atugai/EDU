@@ -3,36 +3,49 @@
 Fibonacci number implementation without recursion.
 Expected complexity: O(n)
 Expected memory:     O(1)
-Input: position number in Fibonacci sequence, ex 1, 3 or 10th.
-Output: Fib value at position 1,3 or 10 equals to 0, 1 or 34.
+Input: number N of first members Fib sequence. 
+Output: First N members of Fib.
 
 */
 
 #include <iostream>
 
-int main() {
-  int num; 
-  int res; 
-  int n1 = 0;
-  int n2 = 1;
-  
-  std::cout << "Input Fib sequence number to get:" << std::endl;
-  std::cin >> num;
-  
-  switch (num) {
-    case 1: 
+// Prints first N number of Fibonacci sequence.
+void fib(int n) {
+  unsigned long int res;
+  unsigned long int n1 = 0;
+  unsigned long int n2 = 1;
+
+  std::cout << "First " << n << " numbers of Fib: " << std::endl;
+
+  switch (n) {
+    case 1:
       res = n1;
+      std::cout << res << std::endl;
       break;
-    case 2: 
+    case 2:
       res = n2;
+      std::cout << res << std::endl;
       break;
     default:
-      for (int i = 0; i < (num - 2); i++) {
+      std::cout << n1 << std::endl;
+      std::cout << n2 << std::endl;
+      for (int i = 0; i < (n - 2); i++) {
         res = n1 + n2;
         n1 = n2;
         n2 = res;
+        std::cout << res << std::endl;
       }
   }
-  std::cout << "Fib member number " << num << " equals: " << res << std::endl;
+}
+
+
+int main() {
+  int num; 
+  
+  std::cout << "Number of first Fib members:" << std::endl;
+  std::cin >> num;
+  
+  fib(num);
   return 0;
 }
