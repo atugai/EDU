@@ -31,6 +31,20 @@ func TestKangaroo(t *testing.T) {
       x2: 5,
       v2: 3,
       want: false,
+    }, {
+      desc: "kangaroo 1 doesn't meet 2",
+      x1: 21,
+      v1: 6,
+      x2: 47,
+      v2: 3,
+      want: false,
+    }, {
+      desc: "kangaroo 1 doesn't meet 2",
+      x1: 43,
+      v1: 2,
+      x2: 70,
+      v2: 2,
+      want: false,
     },  
   }   
 
