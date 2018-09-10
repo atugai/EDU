@@ -1,0 +1,6 @@
+URL list of classes
+===================
+
+GIT
+===
+https://ru.hexlet.io/courses/intro_to_git
