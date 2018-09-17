@@ -9,3 +9,7 @@ https://www.codecademy.com/learn/learn-git
 GIT SANDBOX
 https://learngitbranching.js.org (advanced branching tutorial)
 https://git-school.github.io/visualizing-git
+
+CODING EXCERCISES
+=================
+https://www.hackerrank.com
