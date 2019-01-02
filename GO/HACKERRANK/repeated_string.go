@@ -8,26 +8,25 @@ https://www.hackerrank.com/challenges/repeated-string/problem
 package repeated_string
 
 import (
-	"bytes"
+	"strings"
 )
 
 // RepeatedString calculates number of "a" in fisrt N runes of infinite string made of repeated input S.
 func RepeatedString(s string, n int64) int64 {
-	if len(s) == 1 && s == "a" {
-		return n
+	if int64(len(s)) >= n {
+		return int64(strings.Count(s[:n], "a"))
 	}
 	
-	var bs bytes.Buffer
-	for int64(bs.Len()) < n {
-		bs.WriteString(s)
-	}
-	res := bs.String()
+	fractCount := int64(strings.Count(s, "a"))
+	fullFrac := n / int64(len(s))
+	restFrac := n % int64(len(s))
 	
-	var sum int64 = 0
-	for i := 0; int64(i) < n; i++ {
-		if res[i] == 'a' {
-			sum += 1
-		}
+	if fullFrac == 0 {
+		return fractCount
 	}
-	return sum  
+	
+	var res int64 = fractCount * fullFrac
+	res += int64(strings.Count(s[:restFrac], "a"))
+	
+	return res
 } 

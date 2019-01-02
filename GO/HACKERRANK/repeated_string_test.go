@@ -27,7 +27,12 @@ func TestRepeatedString(t *testing.T) {
 			s: "a",
 			want: 1000000000000,
 		}, {
-			desc: "complex case",
+			desc: "word less then N",
+			n: 3,
+			s: "ababa",
+			want: 2,
+		}, {
+			desc: "complex case fails if use strings",
 			n: 736778906400,
 			s: "kmretasscityylpdhuwjirnqimlkcgxubxmsxpypgzxtenweirknjtasxtvxemtwxuarabssvqdnktqadhyktagjxoanknhgilnm",
 			want: 51574523448,
