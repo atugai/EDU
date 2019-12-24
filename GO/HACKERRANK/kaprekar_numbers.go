@@ -24,12 +24,12 @@ func KaprekarNumbers(p int32, q int32) []int32 {
 
 // isKaprekar validates if input is KAprekar number
 func isKaprekar(n int32) bool {
-    v := int64(n) * int64(n)
-    vs := strconv.FormatInt(v, 10)
-    l, r := vs[len(vs)/2:], vs[0:len(vs)/2]
+	v := int64(n) * int64(n)
+	vs := strconv.FormatInt(v, 10)
+	l, r := vs[0:len(vs)/2], vs[len(vs)/2:]
 
-    lInt, _ := strconv.ParseInt(l, 10, 64)
-    rInt, _ := strconv.ParseInt(r, 10, 64)
+	lInt, _ := strconv.ParseInt(l, 10, 64)
+	rInt, _ := strconv.ParseInt(r, 10, 64)
 
-    return n == int32(lInt + rInt)
-} 
+	return n == int32(lInt + rInt)
+}
