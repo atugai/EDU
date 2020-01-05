@@ -16,6 +16,9 @@ func TestCavityMap(t *testing.T) {
 		},{
 			in: []string{"1112", "1912", "1892", "1234"},
 			want: []string{"1112", "1X12", "18X2", "1234"},
+		},{
+			in: []string{"999", "999", "999"},
+			want: []string{"999", "999", "999"},
 		},
 	}
 
