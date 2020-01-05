@@ -2,7 +2,8 @@ package cavity_map
 
 import (
 	"testing"
-	"reflect"
+
+	"github.com/kylelemons/godebug/pretty"
 )
 
 func TestCavityMap(t *testing.T) {
@@ -23,8 +24,9 @@ func TestCavityMap(t *testing.T) {
 	}
 
 	for i, tc := range tests {
-		if got := CavityMap(tc.in); !reflect.DeepEqual(got, tc.want) {
-			t.Errorf("TestCavityMap(%d): unexpected result got: %v, want: %v", i, got, tc.want)
+		got := CavityMap(tc.in)
+		if diff := pretty.Compare(got, tc.want); diff != "" {
+			t.Errorf("TestCavityMap(%d): unexpected result -got +want diff: %v", i, diff)
 		}
 	}
 }
