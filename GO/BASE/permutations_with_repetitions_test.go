@@ -16,18 +16,28 @@ func TestPermutations(t *testing.T) {
 		{
 			desc: "empty result",
 			l: 0,
-			e: []int{1,2},
+			e: []int{1, 2},
 			want: [][]int{},
 		}, {
 			desc: "different elements",
 			l: 2,
-			e: []int{1,2},
-			want: [][]int{{1,1}, {1, 2}, {2, 1}, {2, 2}},
+			e: []int{1, 2},
+			want: [][]int{
+				{1, 1},
+				{1, 2},
+				{2, 1},
+				{2, 2},
+			},
 		}, {
 			desc: "similar elements",
 			l: 2,
-			e: []int{1,1},
-			want: [][]int{{1,1}, {1, 1}, {1, 1}, {1, 1}},
+			e: []int{1, 1},
+			want: [][]int{
+				{1, 1},
+				{1, 1},
+				{1, 1},
+				{1, 1},
+			},
 		},
 	}
 
