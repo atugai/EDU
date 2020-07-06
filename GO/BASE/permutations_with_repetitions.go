@@ -6,7 +6,7 @@ Permutations with repetitions
 
 package permutations_with_repetitions
 
-// Permutations returns all possible permutations with repetiions of input
+// Permutations returns all possible permutations with repetitions of input
 // elements with specified length. Repeated elements considered as different.
 // Elements order matters so [1, 2] and [2, 1] are different outcomes.
 func Permutations(elements []int, length int) [][]int {
