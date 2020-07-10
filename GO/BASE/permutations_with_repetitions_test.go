@@ -11,6 +11,7 @@ func TestPermutations(t *testing.T) {
 		desc string
 		e []int
 		l int
+		f bool
 		want [][]int
 	}{
 		{
@@ -53,11 +54,30 @@ func TestPermutations(t *testing.T) {
 				{3, 2},
 				{3, 3},
 			},
+		}, {
+			desc: "full permutations",
+			l: 2,
+			e: []int{1, 2, 3},
+			f: true,
+			want: [][]int{
+				{1},
+				{2},
+				{3},
+				{1, 1},
+				{1, 2},
+				{1, 3},
+				{2, 1},
+				{2, 2},
+				{2, 3},
+				{3, 1},
+				{3, 2},
+				{3, 3},
+			},
 		},
 	}
 
 	for _, tc := range tests {
-		got := Permutations(tc.e, tc.l)
+		got := Permutations(tc.e, tc.l, tc.f)
 		if diff := pretty.Compare(got, tc.want); diff != "" {
 			t.Errorf("TestPermutations(%s): unexpected result -got +want diff: %v", tc.desc, diff)
 		}
