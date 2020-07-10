@@ -40,7 +40,10 @@ func recursivePermutations(elements []int, res [][]int, length int) [][]int {
 			if exists(perm, el) {
 				continue
 			}
-			ret = append(ret, append(perm, el))
+			// Fix pointer problem of perm slice from outside loop: values have to be
+			// copied instead re-using slice pointer.
+			p := append([]int(nil), perm...)
+			ret = append(ret, append(p, el))
 		}
 	}
 	return recursivePermutations(elements, ret, length - 1)

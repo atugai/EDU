@@ -6,6 +6,8 @@ Permutations with repetitions
 
 package permutations_with_repetitions
 
+// WARNING !!! Brute force implementation, fails on large outcome lengths.
+
 // Permutations returns all possible permutations with repetitions of input
 // elements with specified length. Repeated elements considered as different.
 // Elements order matters so [1, 2] and [2, 1] are different outcomes.
@@ -43,7 +45,10 @@ func recursivePermutations(elements []int, res [][]int, length int, full bool) [
 	ret := [][]int{}
 	for _, perm := range res {
 		for _, el := range elements {
-			ret = append(ret, append(perm, el))
+			// Fix pointer problem of perm slice from outside loop: values have to be
+			// copied instead re-using slice pointer.
+			p := append([]int(nil), perm...)
+			ret = append(ret, append(p, el))
 		}
 	}
 	return recursivePermutations(elements, ret, length - 1, full)
