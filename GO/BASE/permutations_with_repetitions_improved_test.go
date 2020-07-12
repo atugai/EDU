@@ -84,7 +84,7 @@ func TestPermutationsImproved(t *testing.T) {
 		for i, v := range tc.want {
 			got, err := g.Next()
 			if err != nil {
-				t.Errorf("got unexpected error(%v), want error(nil)", err)
+				t.Errorf("TestPermutationsImproved(%s): got unexpected error(%v), want error(nil)", err)
 			}
 
 			if diff := pretty.Compare(got, v); diff != "" {
