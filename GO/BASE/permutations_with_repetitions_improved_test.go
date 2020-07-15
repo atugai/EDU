@@ -84,7 +84,7 @@ func TestPermutationsImproved(t *testing.T) {
 		for i, v := range tc.want {
 			got, err := g.Next()
 			if err != nil {
-				t.Errorf("TestPermutationsImproved(%s): got unexpected error(%v), want error(nil)", err)
+				t.Errorf("TestPermutationsImproved(%s): got unexpected error(%v), want error(nil)", tc.desc, err)
 			}
 
 			if diff := pretty.Compare(got, v); diff != "" {
@@ -94,6 +94,17 @@ func TestPermutationsImproved(t *testing.T) {
 
 		if _, err := g.Next(); err == nil {
 			t.Errorf("TestPermutationsImproved(%s): unexpected nil error, want out of range", tc.desc)
+		}
+	}
+}
+
+func BenchmarkPermutationsImproved(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		g := NewGenerator(15, []int{1,2,3})
+		for {
+			if _, err := g.Next(); err != nil {
+				break
+			}
 		}
 	}
 }

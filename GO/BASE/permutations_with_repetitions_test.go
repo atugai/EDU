@@ -105,3 +105,9 @@ func TestPermutations(t *testing.T) {
 		}
 	}
 }
+
+func BenchmarkPermutations(b *testing.B) {
+  for i := 0; i < b.N; i++ {
+    Permutations([]int{1,2,3}, 15, false)
+  }
+}
