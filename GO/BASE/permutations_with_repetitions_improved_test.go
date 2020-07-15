@@ -100,7 +100,7 @@ func TestPermutationsImproved(t *testing.T) {
 
 func BenchmarkPermutationsImproved(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		g := NewGenerator(15, []int{1,2,3})
+		g := NewGenerator(10, []int{1,2,3})
 		for {
 			if _, err := g.Next(); err != nil {
 				break
