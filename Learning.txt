@@ -13,3 +13,7 @@ https://git-school.github.io/visualizing-git
 CODING EXCERCISES
 =================
 https://www.hackerrank.com
+
+SQL
+===
+https://sqlbolt.com/lesson/introduction
