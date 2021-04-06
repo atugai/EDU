@@ -1,5 +1,5 @@
 Learning list
-Updated Sep 27 2018
+Updated Apr 06 2021
 
 atugai
 
@@ -17,3 +17,18 @@ Git Sandbox
 
 Sites
 [[https://www.hackerrank.com][Hackerrank]]
+
+* SQL
+
+Interactive tutorial
+[[https://sqlbolt.com/lesson/introduction][Introduction to SQL]]
+
+* Concurrency
+
+Game challenges
+[[http://deadlockempire.github.io][The Deadlock Empire]]
+
+* Regular expressions / RegExp
+
+Interactive tutorial
+[[https://regexone.com][RegexOne]]
