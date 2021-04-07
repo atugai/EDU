@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/sock-merchant
 
 */
 
-package sock_merchant
+package hackerrank
 
 // SockMerchant finds number of sock pairs in array of socks
 func SockMerchant(ar []int32) int32 {

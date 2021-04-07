@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/save-the-prisoner
 
 */
 
-package minimum_distances
+package hackerrank
 
 import "math"
 

@@ -1,4 +1,4 @@
-package programmer_day
+package hackerrank
 
 import (
 	"testing"

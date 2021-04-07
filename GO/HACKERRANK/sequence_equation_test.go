@@ -1,4 +1,4 @@
-package sequence_equation
+package hackerrank
 
 import (
 	"reflect"

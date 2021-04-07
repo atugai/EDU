@@ -1,4 +1,4 @@
-package save_prisoner
+package hackerrank
 
 import (
 	"testing"

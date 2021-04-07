@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/jumping-on-the-clouds
 
 */
 
-package jumping_clouds_basic
+package hackerrank
 
 // JumpingOnClouds jumps over clouds and calculates minimum number of steps to get the end avoiding thunderclouds.
 func JumpingOnClouds(c []int32) int32 {

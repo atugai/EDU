@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/designer-pdf-viewer
 
 */
 
-package pdf_viewer
+package hackerrank
 
 // DesignerPdfViewer calculates highligt size for provided words
 func DesignerPdfViewer(h []int32, word string) int32 {

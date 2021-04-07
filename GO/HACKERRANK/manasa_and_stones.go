@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/manasa-and-stones
 
 */
 
-package manasa_and_stones
+package hackerrank
 
 import (
 	"fmt"

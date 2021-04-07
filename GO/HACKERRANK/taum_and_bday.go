@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/taum-and-bday
 
 */
 
-package taum_and_bday
+package hackerrank
 
 // MinimumPrice calculates minimum price for required presents
 func MinimumPrice(b int64, w int64, bc int64, wc int64, z int64) int64 {

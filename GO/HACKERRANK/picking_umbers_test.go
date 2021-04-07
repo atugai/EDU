@@ -1,4 +1,4 @@
-package picking_umbers
+package hackerrank
 
 import (
 	"testing"

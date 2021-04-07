@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/permutation-equation
 
 */
 
-package sequence_equation
+package hackerrank
 
 // SequenceEquation returns slice of integers pointed by integers from 0 to n in input slice.
 func SequenceEquation(p []int32) []int32 {
@@ -17,6 +17,6 @@ func SequenceEquation(p []int32) []int32 {
 	var res []int32
 	for i := 1; i <= len(p); i++ {
 		res = append(res, valToPos[valToPos[int32(i)]])
-	} 
+	}
 	return res
 }

@@ -1,4 +1,4 @@
-package manasa_and_stones
+package hackerrank
 
 import (
 	"testing"

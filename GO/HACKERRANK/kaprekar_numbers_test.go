@@ -1,6 +1,6 @@
-package kaprekar_numbers
+package hackerrank
 
-import( 
+import(
 	"testing"
 	"reflect"
 )

@@ -11,7 +11,7 @@ Figure out a way to get both kangaroos at the same location at the same time.
 
 */
 
-package kangaroo
+package hackerrank
 
 import (
 	"math"

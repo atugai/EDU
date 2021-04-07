@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/strange-advertising
 
 */
 
-package viral_advertising
+package hackerrank
 
 // ViralAdvertising calculates number of likes by specified day
 func ViralAdvertising(n int32) int32 {

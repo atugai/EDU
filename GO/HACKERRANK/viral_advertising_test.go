@@ -1,4 +1,4 @@
-package viral_advertising
+package hackerrank
 
 import (
 	"testing"

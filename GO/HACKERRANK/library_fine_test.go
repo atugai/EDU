@@ -1,4 +1,4 @@
-package library_fine
+package hackerrank
 
 import (
 	"testing"

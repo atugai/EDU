@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/kaprekar-numbers
 
 */
 
-package kaprekar_numbers
+package hackerrank
 
 import (
 	"strconv"

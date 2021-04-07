@@ -13,7 +13,7 @@ but this would reduce complexitiy to O(n) while looking for numbers diff.
 
 */
 
-package picking_umbers
+package hackerrank
 
 import (
 	"sort"
@@ -22,14 +22,14 @@ import (
 // PickingNumbers finds longest sequens of numbers with diff between 0 to 1
 func PickingNumbers(a []int32) int32 {
 	sort.Slice(a, func(i, j int) bool { return a[i] < a[j] })
-	var ( 
+	var (
 		i, j int = 0, 0
 		res int32 = 1
 	)
 	for ; i < len(a); i = j {
-		var temp int32 = 1 
+		var temp int32 = 1
 		for j = i + 1; j < len(a); j++ {
-			d := a[j] - a[i]      
+			d := a[j] - a[i]
 			if d >= 0 && d <= 1 {
 				temp++
 				continue

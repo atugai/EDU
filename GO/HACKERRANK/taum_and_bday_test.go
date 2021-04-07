@@ -1,4 +1,4 @@
-package taum_and_bday
+package hackerrank
 
 import "testing"
 

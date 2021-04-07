@@ -1,4 +1,4 @@
-package kangaroo
+package hackerrank
 
 import (
   "testing"

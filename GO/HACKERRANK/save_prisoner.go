@@ -12,7 +12,7 @@ used during tests.
 
 */
 
-package save_prisoner
+package hackerrank
 
 // SaveThePrisoner calculates for which seat bad candy would arrive
 func SaveThePrisoner(pris int32, sweets int32, start int32) int32 {

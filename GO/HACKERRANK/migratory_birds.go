@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/migratory-birds
 
 */
 
-package migratory_birds
+package hackerrank
 
 // MigratoryBirds returns most repeated element in array
 // In case of sevaral elements, return lowest id

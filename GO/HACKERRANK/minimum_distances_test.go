@@ -1,4 +1,4 @@
-package minimum_distances
+package hackerrank
 
 import "testing"
 

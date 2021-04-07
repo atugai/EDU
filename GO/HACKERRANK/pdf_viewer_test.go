@@ -1,4 +1,4 @@
-package pdf_viewer
+package hackerrank
 
 import (
 	"testing"

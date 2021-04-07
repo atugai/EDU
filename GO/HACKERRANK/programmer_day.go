@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/day-of-the-programmer
 
 */
 
-package programmer_day
+package hackerrank
 
 import (
 	"strconv"

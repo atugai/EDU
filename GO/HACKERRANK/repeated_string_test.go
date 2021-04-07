@@ -1,4 +1,4 @@
-package repeated_string
+package hackerrank
 
 import (
 	"testing"

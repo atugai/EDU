@@ -1,4 +1,4 @@
-package jumping_clouds
+package hackerrank
 
 import (
 	"testing"

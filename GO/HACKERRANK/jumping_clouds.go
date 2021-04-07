@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited
 
 */
 
-package jumping_clouds
+package hackerrank
 
 // JumpingOnClouds jumps over clouds and calculates resulting energy afterwards.
 func JumpingOnClouds(c []int32, k int32) int32 {

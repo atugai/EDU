@@ -1,4 +1,4 @@
-package migratory_birds
+package hackerrank
 
 import (
 	"testing"
