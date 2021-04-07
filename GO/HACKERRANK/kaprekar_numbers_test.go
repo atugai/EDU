@@ -5,7 +5,7 @@ import(
 	"reflect"
 )
 
-func TestMinimumPrice(t *testing.T) {
+func TestKaprekarNumbersMinimumPrice(t *testing.T) {
         tests := []struct{
                 p int32
                 q int32

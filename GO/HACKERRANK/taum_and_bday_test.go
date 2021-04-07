@@ -2,7 +2,7 @@ package hackerrank
 
 import "testing"
 
-func TestMinimumPrice(t *testing.T) {
+func TestTaumBDayMinimumPrice(t *testing.T) {
 	tests := []struct{
 		b int64
 		w int64
@@ -57,7 +57,7 @@ func TestMinimumPrice(t *testing.T) {
 	}
 
 	for i, tc := range tests {
-		if got := MinimumPrice(tc.b, tc.w, tc.bc, tc.wc, tc.z); got != tc.want {
+		if got := TaumBDayMinimumPrice(tc.b, tc.w, tc.bc, tc.wc, tc.z); got != tc.want {
 			t.Errorf("TestMinimumPrice(%d): unexpected result got: %v, want: %v", i, got, tc.want)
 		}
 	}

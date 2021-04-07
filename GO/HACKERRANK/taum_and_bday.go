@@ -7,8 +7,8 @@ https://www.hackerrank.com/challenges/taum-and-bday
 
 package hackerrank
 
-// MinimumPrice calculates minimum price for required presents
-func MinimumPrice(b int64, w int64, bc int64, wc int64, z int64) int64 {
+// TaumBDayMinimumPrice calculates minimum price for required presents
+func TaumBDayMinimumPrice(b int64, w int64, bc int64, wc int64, z int64) int64 {
 	var res int64
 	if bc + z < wc {
 		res = b*bc + w*bc + w*z
