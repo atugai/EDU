@@ -7,9 +7,9 @@ https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited
 
 package hackerrank
 
-// JumpingOnClouds jumps over clouds and calculates resulting energy afterwards.
-func JumpingOnClouds(c []int32, k int32) int32 {
-	var ( 
+// JumpingOnCloudsRevisited jumps over clouds and calculates resulting energy afterwards.
+func JumpingOnCloudsRevisited(c []int32, k int32) int32 {
+	var (
 		e int32 = 100
 		cnt int32 = 0
 	)

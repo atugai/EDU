@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestJumpingOnClouds(t *testing.T) {
+func TestJumpingOnCloudsRevisited(t *testing.T) {
 	tests := []struct{
 		desc string
 		clouds []int32
@@ -30,8 +30,8 @@ func TestJumpingOnClouds(t *testing.T) {
 	}
 
 	for i, tc := range tests {
-        	if got := JumpingOnClouds(tc.clouds, tc.step); got != tc.want {
-        	        t.Errorf("JumpingOnClouds(%d): %s: unexpected result got: %v, want: %v", i, tc.desc, got, tc.want)
-        	}
-        }
+		if got := JumpingOnCloudsRevisited(tc.clouds, tc.step); got != tc.want {
+			t.Errorf("JumpingOnClouds(%d): %s: unexpected result got: %v, want: %v", i, tc.desc, got, tc.want)
+		}
+	}
 }
