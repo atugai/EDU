@@ -18,14 +18,8 @@ jobs:
       with:
         go-version: 1.16
 
-    - name: List
-      run: ls -la
-      
-    - name: Dir
-      run: pwd
-
     - name: Build
-      run: go build -v ./GO/HACKERRANK/...
+      run: cd ./GO/HACKERRANK/ && go build -v ./...
 
     - name: Test
-      run: go test -v ./GO/HACKERRANK/...
+      run: cd ./GO/HACKERRANK/ && go test -v ./...
