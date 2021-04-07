@@ -1,4 +1,4 @@
-package acm_icpc_team
+package hackerrank
 
 import (
 	"testing"

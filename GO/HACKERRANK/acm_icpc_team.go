@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/acm-icpc-team
 
 */
 
-package acm_icpc_team
+package hackerrank
 
 import (
 	"sort"
@@ -25,7 +25,7 @@ func AcmTeam(topic []string) []int32 {
 		}
 		ts = append(ts, tempRes)
 	}
-	
+
 	resMap := map[int32]int32{}
 	for i := 0; i < len(ts); i++ {
 		for j := i + 1; j < len(ts); j++ {
@@ -43,7 +43,7 @@ func AcmTeam(topic []string) []int32 {
 			}
 		}
 	}
-	
+
 	scores := []int{}
 	for k := range resMap {
 		scores = append(scores, int(k))

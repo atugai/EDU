@@ -1,4 +1,4 @@
-package append_and_delete
+package hackerrank
 
 import "testing"
 

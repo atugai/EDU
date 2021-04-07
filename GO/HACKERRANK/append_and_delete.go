@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/append-and-delete
 
 */
 
-package append_and_delete
+package hackerrank
 
 // AppendAndDelete checks if possible to get string t from string s for k number of steps/changes.
 func AppendAndDelete(s string, t string, k int) bool {
