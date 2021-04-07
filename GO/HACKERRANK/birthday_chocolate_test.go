@@ -1,4 +1,4 @@
-package birthday_chocolate
+package hackerrank
 
 import (
 	"testing"

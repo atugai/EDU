@@ -1,4 +1,4 @@
-package breaking_records
+package hackerrank
 
 import (
 	"reflect"

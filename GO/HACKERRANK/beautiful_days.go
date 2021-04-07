@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/beautiful-days-at-the-movies
 
 */
 
-package beautiful_days
+package hackerrank
 
 import (
 	"math"

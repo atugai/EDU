@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/halloween-sale
 
 */
 
-package halloween_sale
+package hackerrank
 
 // Returns the number of games possible to buy withing budget.
 // p: current game price

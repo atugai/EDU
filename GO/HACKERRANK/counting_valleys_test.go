@@ -1,4 +1,4 @@
-package counting_valleys
+package hackerrank
 
 import (
 	"testing"

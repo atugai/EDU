@@ -12,7 +12,7 @@ You must determine how many such numbers exist.
 
 */
 
-package between_two_sets
+package hackerrank
 
 // factorsOf checks if all numbers in list are factors of t 
 func factorsOf(ls []int32, t int32) bool {

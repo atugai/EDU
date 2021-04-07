@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/equality-in-a-array
 
 */
 
-package equalize_array
+package hackerrank
 
 import (
 	"sort"

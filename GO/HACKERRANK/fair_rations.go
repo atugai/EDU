@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/fair-rations
 
 */
 
-package fair_rations
+package hackerrank
 
 // Returns total number of rations required to make all allocations even. If
 // even allocation is not possible returs -1.

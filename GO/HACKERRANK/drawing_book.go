@@ -20,7 +20,7 @@ Turns F | Pages | Turns B
 
 */
 
-package drawing_book
+package hackerrank
 
 // turnFront helper func to find number of turns from front
 func turnFront(p int32) int32 {

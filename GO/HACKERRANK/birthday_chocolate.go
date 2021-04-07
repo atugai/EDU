@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/the-birthday-bar
 
 */
 
-package birthday_chocolate
+package hackerrank
 
 // Birthday calculates chocolate pieces allocation for day and month
 func Birthday(s []int32, d int32, m int32) int32 {

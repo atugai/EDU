@@ -1,4 +1,4 @@
-package halloween_sale
+package hackerrank
 
 import "testing"
 

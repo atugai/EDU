@@ -1,4 +1,4 @@
-package cavity_map
+package hackerrank
 
 import (
 	"testing"

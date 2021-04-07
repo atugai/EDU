@@ -1,4 +1,4 @@
-package cats_and_mouse
+package hackerrank
 
 import (
 	"testing"

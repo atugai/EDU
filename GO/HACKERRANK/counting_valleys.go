@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/counting-valleys
 
 */
 
-package counting_valleys
+package hackerrank
 
 // CountingValleys counts number of valleys in journey string path
 func CountingValleys(s string) int32 {

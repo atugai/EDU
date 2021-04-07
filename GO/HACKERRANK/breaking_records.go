@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/breaking-best-and-worst-records
 
 */
 
-package breaking_records
+package hackerrank
 
 // BreakingRecords calculates numer of times Max and Min were exceeded
 func BreakingRecords(scores []int32) []int32 {

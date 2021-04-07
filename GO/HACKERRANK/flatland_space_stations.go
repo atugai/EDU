@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/flatland-space-stations
 
 */
 
-package flatland_space_stations
+package hackerrank
 
 import "math"
 

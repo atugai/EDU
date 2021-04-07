@@ -1,4 +1,4 @@
-package electronics_shop
+package hackerrank
 
 import (
 	"testing"

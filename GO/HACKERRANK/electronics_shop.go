@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/electronics-shop
 
 */
 
-package electronics_shop
+package hackerrank
 
 // GetMoneySpent calculates maximum spendable budget for kb and drive
 func GetMoneySpent(keyboards []int32, drives []int32, b int32) int32 {

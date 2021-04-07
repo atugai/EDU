@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/cavity-map
 
 */
 
-package cavity_map
+package hackerrank
 
 // Returns updated grid map with deepest cells marked as X. Each cell of the
 // input map has a value denoting its depth. Cell of the map a cavity if and

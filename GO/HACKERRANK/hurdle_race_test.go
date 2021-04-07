@@ -1,4 +1,4 @@
-package hurdle_race
+package hackerrank
 
 import (
 	"testing"

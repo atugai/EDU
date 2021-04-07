@@ -1,4 +1,4 @@
-package fair_rations
+package hackerrank
 
 import "testing"
 

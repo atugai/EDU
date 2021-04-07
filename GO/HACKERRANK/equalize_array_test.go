@@ -1,4 +1,4 @@
-package equalize_array
+package hackerrank
 
 import (
 	"testing"

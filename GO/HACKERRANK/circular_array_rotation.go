@@ -12,7 +12,7 @@ TODO: optimize
 
 */
 
-package circular_array_rotation
+package hackerrank
 
 // CircularArrayRotation calculates new array element positions after right circullar rotation
 func CircularArrayRotation(a []int32, k int32, queries []int32) []int32 {

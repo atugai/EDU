@@ -1,4 +1,4 @@
-package between_two_sets
+package hackerrank
 
 import (
 	"testing"

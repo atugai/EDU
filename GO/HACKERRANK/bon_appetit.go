@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/bon-appetit
 
 */
 
-package bon_appetit
+package hackerrank
 
 import (
 	"strconv"

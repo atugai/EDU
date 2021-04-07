@@ -1,4 +1,4 @@
-package bon_appetit
+package hackerrank
 
 import (
 	"testing"

@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/divisible-sum-pairs
 
 */
 
-package divisible_sum_pairs
+package hackerrank
 
 // DivisibleSumPairs finds all sum pairs which are divisible by k
 func DivisibleSumPairs(n int32, k int32, ar []int32) int32 {

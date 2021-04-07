@@ -1,4 +1,4 @@
-package beautiful_days
+package hackerrank
 
 import (
 	"testing"

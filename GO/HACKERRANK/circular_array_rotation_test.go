@@ -1,4 +1,4 @@
-package circular_array_rotation
+package hackerrank
 
 import (
 	"reflect"

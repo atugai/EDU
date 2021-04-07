@@ -1,4 +1,4 @@
-package divisible_sum_pairs
+package hackerrank
 
 import (
 	"testing"

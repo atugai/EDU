@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/the-hurdle-race
 
 */
 
-package hurdle_race
+package hackerrank
 
 // HurdleRace calculates number of potions to take to jump over hieghts
 func HurdleRace(k int32, height []int32) int32 {
