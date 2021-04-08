@@ -13,7 +13,7 @@ func CountingValleys(s string) int32 {
 		res, position int32
 		prevUp bool
 	)
-	for _, r := range []rune(s) {
+	for _, r := range s {
 		if r == rune('U') {
 			position++
 			prevUp = true
