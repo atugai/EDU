@@ -30,7 +30,7 @@ jobs:
         export PATH=$PATH:$(go env GOPATH)/bin
         go get -u honnef.co/go/tools/cmd/staticcheck
         cd ./GO/HACKERRANK/
-        golint -set_exit_status ./...
+        staticcheck ./...
 
     - name: Go Vet
       run: |
