@@ -7,8 +7,8 @@ https://www.hackerrank.com/challenges/fair-rations
 
 package hackerrank
 
-// Returns total number of rations required to make all allocations even. If
-// even allocation is not possible returs -1.
+// FairRations returns total number of rations required to make all allocations
+// even. If even allocation is not possible returs -1.
 func FairRations(B []int32) int32 {
 	// Numbers should be increased only between odd digit pairs, find all odds.
 	var pos []int

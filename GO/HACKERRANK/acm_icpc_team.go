@@ -30,16 +30,16 @@ func AcmTeam(topic []string) []int32 {
 	for i := 0; i < len(ts); i++ {
 		for j := i + 1; j < len(ts); j++ {
 			var teamScore int32 = 0
-			for k, _ := range ts[i] {
+			for k := range ts[i] {
 				if ts[i][k] == 1 || ts[j][k] == 1 {
-					teamScore += 1
+					teamScore++
 				}
 			}
 
 			if _, ok := resMap[teamScore]; !ok {
 				resMap[teamScore] = 1
 			} else {
-				resMap[teamScore] += 1
+				resMap[teamScore]++
 			}
 		}
 	}

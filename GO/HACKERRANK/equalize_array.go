@@ -18,7 +18,7 @@ func EqualizeArray(arr []int32) int32 {
 		if _, ok := els[v]; !ok {
 			els[v] = 1
 		} else {
-			els[v] += 1
+			els[v]++
 		}
 	}
 

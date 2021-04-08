@@ -20,7 +20,6 @@ func BonAppetit(bill []int32, k int32, b int32) string {
 	fair := (sum - bill[k]) / 2
 	if b == fair {
 		return "Bon Appetit"
-	} else {
-		return strconv.Itoa(int(b - fair))
 	}
+	return strconv.Itoa(int(b - fair))
 }

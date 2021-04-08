@@ -7,10 +7,10 @@ https://www.hackerrank.com/challenges/cavity-map
 
 package hackerrank
 
-// Returns updated grid map with deepest cells marked as X. Each cell of the
-// input map has a value denoting its depth. Cell of the map a cavity if and
-// only if this cell is not on the border of the map and each cell adjacent to
-// it has strictly smaller depth.
+// CavityMap returns updated grid map with deepest cells marked as X. Each cell
+// of the input map has a value denoting its depth. Cell of the map a cavity if
+// and only if this cell is not on the border of the map and each cell adjacent
+// to it has strictly smaller depth.
 func CavityMap(grid []string) []string {
 	inMap := map[position]int32{}
 	// Build current grid as map for ease of compare values.

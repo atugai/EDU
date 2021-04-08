@@ -26,18 +26,16 @@ package hackerrank
 func turnFront(p int32) int32 {
 	if p % 2 == 0 {
 		return p/2
-	} else {
-		return (p - 1)/2
 	}
+	return (p - 1)/2
 }
 
 // turnBack helper func to find number of turns from back
 func turnBack(n int32, p int32) int32 {
 	if p % 2 == 0 {
 		return (n - p)/2
-	} else {
-		return (n - p + 1)/2
 	}
+	return (n - p + 1)/2
 }
 
 // PageCount returns minimum number of page turns to get required page

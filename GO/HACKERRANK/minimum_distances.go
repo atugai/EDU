@@ -9,7 +9,8 @@ package hackerrank
 
 import "math"
 
-// Returns the minimum distance between any pair of equal elements in the slice.
+// MinimumDistance returns the minimum distance between any pair of equal
+// elements in the slice.
 func MinimumDistance(a []int32) int32 {
 	// Build helper dictionary to store all positions for each slice item.
 	nums := map[int32][]int{}

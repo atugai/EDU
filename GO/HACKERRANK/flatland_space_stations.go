@@ -9,7 +9,8 @@ package hackerrank
 
 import "math"
 
-// Returns the maximum distance required to get from city to space station.
+// FlatlandSpaceStations returns the maximum distance required to get from city
+// to space station.
 // n: number of cities.
 // c: slice describing which city has space station.
 // Example: [0, 4] means city 0 and 4 has space station.

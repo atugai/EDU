@@ -20,7 +20,7 @@ func AppendAndDelete(s string, t string, k int) bool {
 		if s[i] != t[i] {
 			break
 		}
-		i += 1
+		i++
 	}
 
 	// calculate  how many steps we need to make words equal.

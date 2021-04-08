@@ -39,7 +39,7 @@ func GetTotal(a []int32, b []int32) int32 {
     var res int32 = 0
     for i := a[len(a)-1]; i <=  b[0]; i++ {
         if factorsOf(a, i) && isFactor(b, i) {
-            res +=1 
+            res++
         }
     }
     return res

@@ -20,7 +20,7 @@ func JumpingOnClouds(c []int32) int32 {
 		} else {
 			i = i + 1
 		}
-		res += 1
+		res++
 	}
 	return res
 }

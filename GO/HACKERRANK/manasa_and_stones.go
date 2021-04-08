@@ -57,8 +57,8 @@ func (g *Generator) Next() ([]int32, error) {
 	return g.current, nil
 }
 
-// Computes all possible stone values at the end of the road. Takes as input
-// number of stones on the trail and 2 possible distances between stones.
+// Stones computes all possible stone values at the end of the road. Takes as
+// input number of stones on the trail and 2 possible distances between stones.
 func Stones(n int32, a int32, b int32) []int32 {
 	// Initialise generator and get base outcome.
 	g := NewGenerator(n-1, a, b)
@@ -84,7 +84,7 @@ func Stones(n int32, a int32, b int32) []int32 {
 	}
 
 	// Convert calculated stones into slice and sort before return result.
-	for k, _ := range tempMap {
+	for k := range tempMap {
 		res = append(res, k)
 	}
 	sort.Slice(res, func(i, j int) bool {

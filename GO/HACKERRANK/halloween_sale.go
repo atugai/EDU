@@ -7,7 +7,7 @@ https://www.hackerrank.com/challenges/halloween-sale
 
 package hackerrank
 
-// Returns the number of games possible to buy withing budget.
+// HowManyGames returns the number of games possible to buy withing budget.
 // p: current game price
 // d: price decrement at subsequent game
 // m: minimum value game can be bought

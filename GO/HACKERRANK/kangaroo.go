@@ -17,7 +17,8 @@ import (
 	"math"
 )
 
-// Checks wheter both kangaroos would be at same position after equal number of jumps.
+// Kangaroo checks wheter both kangaroos would be at same position after equal
+// number of jumps.
 func Kangaroo(x1, v1, x2, v2 int) bool {
 	delta := math.Abs(float64(x1 - x2))
 	for {

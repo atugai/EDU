@@ -15,7 +15,7 @@ func JumpingOnCloudsRevisited(c []int32, k int32) int32 {
 	)
 	for cnt < int32(len(c)) {
 		cnt += k
-		e -= 1
+		e--
 		if c[cnt % int32(len(c))] == 1 {
 			e -= 2
 		}

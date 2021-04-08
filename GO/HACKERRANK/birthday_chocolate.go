@@ -14,9 +14,9 @@ func Birthday(s []int32, d int32, m int32) int32 {
 		sum, num = 0,0
 		for j := i; j < len(s); j++ {
 			sum += s[j]
-			num += 1
+			num++
 			if (sum == d) && (m == num) {
-				res += 1
+				res++
 				break
 			}
 			if (sum > d) || (num > m) {
