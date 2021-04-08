@@ -26,10 +26,17 @@ jobs:
         golint -set_exit_status ./...
 
     - name: Vet (Static analysis)
-      run: cd ./GO/HACKERRANK/ && go vet -x ./...
+      run: |
+        cd ./GO/HACKERRANK/
+        go vet -x ./...
 
     - name: Build
-      run: cd ./GO/HACKERRANK/ && go build -race -v -x ./...
+      run: |
+        cd ./GO/HACKERRANK/
+        go build -race -v -x ./...
 
     - name: Test
-      run: cd ./GO/HACKERRANK/ && go test -v --covermode=count --coverprofile=c.out ./... && go tool cover -func=c.out
+      run: |
+        cd ./GO/HACKERRANK/
+        go test -v --covermode=count --coverprofile=c.out ./...
+        go tool cover -func=c.out
