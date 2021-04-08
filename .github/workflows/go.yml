@@ -18,6 +18,9 @@ jobs:
       with:
         go-version: 1.16
 
+    - name: Vet (Static analysis)
+      run: cd ./GO/HACKERRANK/ && go vet -x ./...
+
     - name: Build
       run: cd ./GO/HACKERRANK/ && go build -race -v -x ./...
 
