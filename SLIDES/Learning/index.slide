@@ -1,7 +1,10 @@
 Learning list
-Updated Apr 06 2021
+Updated May 04 2021
 
 atugai
+
+[[https://talks.godoc.org/github.com/atugai/EDU/SLIDES/Learning/index.slide][Slides URL]]
+
 
 * Git / Github
 
@@ -13,25 +16,30 @@ Git Sandbox
 [[https://learngitbranching.js.org][Advanced Branching Tutorial]]
 [[https://git-school.github.io/visualizing-git][Vizualizing Git]]
 
+
 * Coding excercises
 
 Sites
 [[https://www.hackerrank.com][Hackerrank]]
+
 
 * SQL
 
 Interactive tutorial
 [[https://sqlbolt.com/lesson/introduction][Introduction to SQL]]
 
+
 * Concurrency
 
 Game challenges
 [[http://deadlockempire.github.io][The Deadlock Empire]]
 
+
 * Regular expressions / RegExp
 
 Interactive tutorial
 [[https://regexone.com][RegexOne]]
+
 
 * Docker / Containers
 
