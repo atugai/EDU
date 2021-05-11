@@ -29,3 +29,11 @@ https://regexone.com
 DOCKER
 ======
 https://labs.play-with-docker.com
+
+OTHER / FUN
+===========
+https://nandgame.com
+
+OTHER / TOOLS
+=============
+https://app.diagrams.net
