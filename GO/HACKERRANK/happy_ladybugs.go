@@ -63,7 +63,7 @@ func isHappy(in string) bool {
 func HappyLadybugs(b string) bool {
 	base := map[rune]int{}
 	for _, r := range b {
-		base[r] += 1
+		base[r]++
 	}
 	if len(base) == 0 || allEmpty(base) {
 		return true
