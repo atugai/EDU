@@ -5,12 +5,12 @@ import (
 )
 
 func TestSaveThePrisoner(t *testing.T) {
-	tests := []struct{
-		desc string
-		numPris int32
+	tests := []struct {
+		desc      string
+		numPris   int32
 		numSweets int32
-		startPos int32
-		want int32
+		startPos  int32
+		want      int32
 	}{
 		{
 			"success",
@@ -32,6 +32,13 @@ func TestSaveThePrisoner(t *testing.T) {
 			2,
 			2,
 			3,
+		},
+		{
+			"success",
+			2,
+			3,
+			0,
+			2,
 		},
 	}
 

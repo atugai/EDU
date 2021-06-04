@@ -5,10 +5,10 @@ import (
 )
 
 func TestPageCount(t *testing.T) {
-	tests := []struct{
+	tests := []struct {
 		desc string
-		n int32
-		p int32
+		n    int32
+		p    int32
 		want int32
 	}{
 		{
@@ -16,11 +16,15 @@ func TestPageCount(t *testing.T) {
 			6,
 			2,
 			1,
-		},
-		{
+		}, {
 			"0 page from end ",
 			5,
 			4,
+			0,
+		}, {
+			"0 page from start",
+			5,
+			5,
 			0,
 		},
 	}

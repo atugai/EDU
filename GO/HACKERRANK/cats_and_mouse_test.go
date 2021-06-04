@@ -5,12 +5,12 @@ import (
 )
 
 func TestCatAndMouse(t *testing.T) {
-	tests := []struct{
-		desc string
-		catA int32
-		catB int32
+	tests := []struct {
+		desc  string
+		catA  int32
+		catB  int32
 		mouse int32
-		want string
+		want  string
 	}{
 		{
 			"cat B closer",
@@ -18,15 +18,19 @@ func TestCatAndMouse(t *testing.T) {
 			2,
 			3,
 			"Cat B",
-		},
-		{
+		}, {
+			"cat A closer",
+			2,
+			1,
+			3,
+			"Cat A",
+		}, {
 			"mouse escapes",
 			1,
 			3,
 			2,
 			"Mouse C",
 		},
-
 	}
 
 	for i, tc := range tests {
